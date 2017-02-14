@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="google-site-verification" content="8WNFIHDIW1qeu_PsrD_U3guGWeJ0bnYxitOQy5u-L5U" />
+		<title>Value Education|Home</title>
+		<link rel="stylesheet" href="/homepageStyleSheet.css" type="text/css"/>
+		<script src="http://code.jquery.com/jquery-2.1.1.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript">
+$('.slide:gt(0)').hide();
+$('.slide:last').addClass('last');
+var cur = $('.slide:first');
+
+function animate() {
+	cur.fadeOut( 1000 );
+	if ( cur.attr('class') == 'last' )
+		cur = $('.slide:first');
+	else
+		cur = cur.next();
+	cur.fadeIn( 1000 );
+}
+
+
+$(function() {
+	setInterval( "animate()", 5000 );
+} );
+</script>
+	</head>  
+	<body>
+		<div class="bodyContainer">
+			<div class="header">
+				<img src="http://4.bp.blogspot.com/-tkzr__lYGt4/VMste2dsAAI/AAAAAAAACcw/4hxme2k215U/s320/download.png"alt="logo"/>
+				<p id="instNameTag"> Value Education<br><span> A Sincere Effort.</span>
+				</p>
+				<div class="social">
+				<iframe align="right" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FValue.Education.asincereeffort%3Fref%3Dhl&amp;width=20&amp;layout=button&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:35px;" allowTransparency="true"></iframe>	
+				</div>
+				<!--<ul align="right">
+					<li><a href="/login1.php">Login</li>
+					<li><a href="/signUp.php">SignUp</li>
+					<!--<li><a href="/help.php">Help</li>
+				</ul>-->
+				
+			</div>     
+			<div class="navbar">
+			  <ul align="right">
+					<li id="currentPage" align="center"><a href="/index.php">Home</a></li>
+					<li><a href = "/Learning/index.php" > Learning </a>  </li>
+					<li><a href="/Assesment/index.php">Assesment  </a> </li>
+					<li><a href="/Courses/index.php">Courses</a></li>          
+					<li><a href="/about_us.php">About Us</a></li>
+					<li><a href="/contact_us.php">Contact Us</a></li>
+			  </ul>
+			</div>
+		  
+		  
+			
+			<div class="content">
+				<div class="photobanner">
+					
+					<img class="slide" src="http://teacherstech.net/wp-content/plugins/RSSPoster_PRO/cache/bd037_tell-me-and-i-forgot-learning-quote-620x230.jpg"/>
+				
+					<!--<img class="slide" src="/Images/1.jpg"/>
+					<img class="slide" src="/Images/2.jpg"/>
+					<img class="slide" src="/Images/3.png"/>
+					<img class="slide" src="/Images/4.jpg"/>
+					<img class="slide" src="/Images/5.jpg"/>
+					<img class="slide" src="/Images/6.jpg"/>
+					<img class="slide" src="/Images/7.jpg"/>
+					<img class="slide" src="/Images/8.jpg"/>
+					<img class="slide" src="/Images/9.png"/>-->
+					<img class="slide" src="/Images/10.png"/>
+					
+					
+				</div>	  
+				<div class = "columns">
+					<div id="notice">
+						<h3 align="center">Notices</h3>
+						<p align="center">Fresh Batches for class 09, Class 10 and  Class 12 starting on Wednesday, 1st April 2015.<p>
+						<p align="center">Fresh Batches for class 11 starting on Monday, 6 April 2015.<p>
+					</div>
+					<div id="results">
+						<h3 align="center">Results</h3>
+						<p >Congratulations to Parmanyu Yadav for securing AIPMT ALL INDIA RANK 1613 and 94% in 
+						CBSE 12 Board examinations<p>
+						<p >Three out of five students scored more than 85% in CBSE 12 Board examinations<p>
+						<p>6 students scored more than 9 CGPA in CBSE 10th  examinations<p>
+					</div>
+					<div id="features">
+						<h3 align="center">Features</h3>
+						<p >Classroom Recorded video Lectures</p>
+						<p>Interactive Classrooms</p>
+						<p>Online Study Material</p>
+						
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div id="quickLink">
+					<h3>Quick Links</h3>
+					<ul >
+						<li><a href ="/QuickLinks/attendance.php">Attendance</a></li>
+						<li><a href ="/QuickLinks/results.php">Results</a></li>
+						<li><a href ="/QuickLinks/feeStructure.php">Fee Structure</a></li>
+						<li><a href ="/QuickLinks/holidays.php">Holidays</a></li>
+						<li><a href ="/QuickLinks/career.php">Career</a></li>
+					</ul>
+				</div>
+				<div id="class">
+					<h3>Class</h3>
+					<ul>
+						<li><a href ="/Class/class09.php">Class 09</a></li>
+						<li><a href ="/Class/class10.php">Class 10</a></li>
+						<li><a href ="/Class/class11.php">Class 11</a></li>
+						<li><a href ="/Class/class12.php">Class 12</a></li>
+						
+					</ul>
+				</div>
+				<div id="material">
+					<h3>Support Materials</h3>
+					<ul>
+						<li><a href ="/SupportMaterials/assignment.php">Assignment</a></li>
+						<li><a href ="/SupportMaterials/videoLectures.php">Video Lectures</a></li>
+						<li><a href ="/SupportMaterials/sampleTestPaper.php">Sample Test Paper</a></li>
+						<li><a href ="/SupportMaterials/testResults.php">Test Results</a></li>
+						
+					</ul>
+				</div>
+				<div id="contact">
+					<h3>Contact Us</h3>
+					<h3> Value Education </h3>
+					<p>Address: RZ F 147/3, 60 FT Road , Near Jat Dharamshala,<br> 
+					Pradhan Chowk, Sadh Nagar, Palam ,New Delhi 110045.</p>
+					<p>Ph. No: 9891999179<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp9818014959</p>
+					<p>Email: value.education@outlook.com</p>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7006.670331206607!2d77.09570230554992!3d28.589720334043086!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3a4a6a872a365674!2sValue+Education%2C+2nd+Floor%2C+RZ-706!5e0!3m2!1sen!2sin!4v1425539430446" width="200" height="100" frameborder="0" style="border:0"></iframe>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
